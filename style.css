@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  'Reggae One', cursive;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background: rgb(131,0,217);
+    background: linear-gradient(90deg, rgba(131,0,217,1) 0%, rgba(90,0,185,1) 50%, rgb(141, 0, 156) 100%); */
+    min-height: 100vh;
+    background-color: rgb(230, 84, 0);
+    flex-direction: column;
+
+}
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+    min-width: 60%;
+    max-width:100%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0.2px 13px rgba(255, 255, 255, 0.178);
+
+}
+.content h1{
+    color: rgb(255, 123, 0);
+    padding: 10px 10px;
+}
+.content .input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+
+    
+}
+#mainButton{
+    background: none;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(255, 94, 0);
+    padding: 7px 14px 9px;
+    color: rgb(255, 94, 0);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: 0.4s;
+
+
+}
+#mainButton:hover{
+    background-color: rgb(255, 94, 0);
+    color: white;
+}
+#countryFlags{
+    max-height: 64px;
+    max-width: 64px;
+}
+#countryHolder h6{
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        min-width: 100%;
+    }
+  }
+
+.none{
+    display: none;
+}
+.flex{
+    display: flex;
+}
+.button-container{
+    position: absolute;
+    float: left;
+    top: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container a{
+    background:none;
+    cursor: pointer;
+
+}
+.button-container img{
+    max-width: 60px;
+    max-height: 60px;
+}
+.faqDiv{
+    max-width: 80%;
+    padding: 30px;
+    transition: all 3s;
+}

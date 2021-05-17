@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet"> 
+
+    <!-- Style for The input box -->
+    <link rel="stylesheet" href="inputAnimation.css">
+
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="newcss.css">
+    <title>Name-nation</title>
+</head>
+<body>
+    <!-- Main container -->
+    <div class="container">
+
+        <div class="button-container">
+
+            <a id="faqToggle" class="faqToggle">
+                <img src="imgbin_question-mark-icon-png.png" alt="">
+            </a>
+        </div>
+        <!-- Card container -->
+        <div class="content"  id="mainApp">
+            <div class="in-content">
+
+                
+                            <!-- Heading/Title -->
+                            <h1>Know nationality of person</h1>
+                            <h5>Made By <a href="">Shivam</a></h5>
+                            
+                            <!-- Container for  input field -->
+                            <div class="input-container">
+                                <div class="col-3">
+                
+                                    <input class="effect-9" type="text" id="input" placeholder="Enter Name">
+                                    <span class="focus-border">
+                                        <i></i>
+                                    </span>
+                                </div>
+                
+                                <!-- main Button  -->
+                                <a id="mainButton">Check</a>
+                            </div>
+                
+                            <!-- Country Flag container -->
+                            <img id="countryFlags" src="favpng_world-globe-earth-question-mark-stock-photography.png"/>
+                            <a id="countryHolder">Enter A name</a>
+            </div>
+            <!-- Faq div -->
+                
+        </div>
+        <div class="container" id="faqApp">
+    
+            <!-- Card container -->
+            <div class="content faqDiv none" id="faqDiv">
+                <div class="in-content">
+                    
+                                <h2>How Accurate is This App?</h2>
+                                <p>
+                                    <br>
+                                    <br><br>
+                                </p>
+                                <p>
+                                    NationalityApp Shows the origin country of the Name, 
+                                    Its it possible that you enter person's name who is born 
+                                    in another country but this app showing another country.
+                                    <br>
+                                    This is because the origin of name is from that country.
+                                </p>
+                </div>
+                
+    
+    
+            </div>
+    
+        </div>
+
+</body>
+<script type="module" defer src="script.js"></script>
+</html>
